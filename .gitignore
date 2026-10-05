@@ -1,0 +1,17 @@
+# WhatsApp login sessions (browser profiles) - contain credentials
+whatsapp_session_*/
+
+# Local tool state
+.claude/
+
+# Secrets / env
+.env
+.env.*
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
